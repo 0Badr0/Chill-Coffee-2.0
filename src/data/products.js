@@ -47,4 +47,14 @@ export const products = [
     distributorPrice: '70 ₽',
     retailPrice: '85 ₽',
   },
+  {
+  id: "protein-coffee-bar",
+  title: "Chill Whey",
+  subtitle: "Протеиновый батончик",
+  description: "Протеиновый батончик «Chill Whey» с кофеином, без энергетической основы.",
+  image: "protein-bar-coming-soon.png",
+  price: "Coming soon",
+  badge: "Скоро",
+  isComingSoon: true
+}
 ]
