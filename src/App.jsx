@@ -1,13 +1,16 @@
 import Header from './components/Header'
 import Hero from './components/Hero'
 import AboutSection from './components/AboutSection'
-import WhySection from './components/WhySection'
+import FactorySection from './components/FactorySection'
 import ProductsSection from './components/ProductsSection'
+import ComingSoonSection from './components/ComingSoonSection'
+import WhySection from './components/WhySection'
+import ProductSpecsSection from './components/ProductSpecsSection'
 import BuySection from './components/BuySection'
 import AmbassadorsSection from './components/AmbassadorsSection'
+import PartnersSection from './components/PartnersSection'
 import ContactsSection from './components/ContactsSection'
 import Footer from './components/Footer'
-import FactorySection from './components/FactorySection'
 
 function App() {
   return (
@@ -17,11 +20,14 @@ function App() {
       <main>
         <Hero />
         <AboutSection />
-        <WhySection />
+        <FactorySection />
         <ProductsSection />
+        <ComingSoonSection />
+        <WhySection />
+        <ProductSpecsSection />
         <BuySection />
         <AmbassadorsSection />
-        <FactorySection />
+        <PartnersSection />
         <ContactsSection />
       </main>
 
